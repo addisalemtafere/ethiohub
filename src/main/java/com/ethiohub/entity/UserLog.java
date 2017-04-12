@@ -43,4 +43,6 @@ public class UserLog {
     public void setUser(Users user) {
         this.user = user;
     }
+
+
 }

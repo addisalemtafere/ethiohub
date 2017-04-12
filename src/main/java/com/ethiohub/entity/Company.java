@@ -92,4 +92,12 @@ public class Company {
     public void setCompanyImages(List<CompanyImage> companyImages) {
         this.companyImages = companyImages;
     }
+
+    public List<Jobs> getJobs() {
+        return jobs;
+    }
+
+    public void setJobs(List<Jobs> jobs) {
+        this.jobs = jobs;
+    }
 }

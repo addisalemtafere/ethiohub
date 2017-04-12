@@ -44,4 +44,6 @@ public class BusinessStream {
     public void setCompanies(List<Company> companies) {
         this.companies = companies;
     }
+
+
 }

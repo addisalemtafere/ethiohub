@@ -48,4 +48,91 @@ public class Jobs {
     @JoinColumn(name = "posted_by_id")
     private Users users;
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public char getIsCompanyHidden() {
+        return isCompanyHidden;
+    }
+
+    public void setIsCompanyHidden(char isCompanyHidden) {
+        this.isCompanyHidden = isCompanyHidden;
+    }
+
+    public Date getCreatedDate() {
+        return createdDate;
+    }
+
+    public void setCreatedDate(Date createdDate) {
+        this.createdDate = createdDate;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public char getIsActive() {
+        return isActive;
+    }
+
+    public void setIsActive(char isActive) {
+        this.isActive = isActive;
+    }
+
+    public Company getCompany() {
+        return company;
+    }
+
+    public void setCompany(Company company) {
+        this.company = company;
+    }
+
+    public JobType getJobType() {
+        return jobType;
+    }
+
+    public void setJobType(JobType jobType) {
+        this.jobType = jobType;
+    }
+
+    public List<JobSkillSet> getJobSkillSet() {
+        return jobSkillSet;
+    }
+
+    public void setJobSkillSet(List<JobSkillSet> jobSkillSet) {
+        this.jobSkillSet = jobSkillSet;
+    }
+
+    public JobLocation getJobLocation() {
+        return jobLocation;
+    }
+
+    public void setJobLocation(JobLocation jobLocation) {
+        this.jobLocation = jobLocation;
+    }
+
+    public List<JobActivity> getJobActivities() {
+        return jobActivities;
+    }
+
+    public void setJobActivities(List<JobActivity> jobActivities) {
+        this.jobActivities = jobActivities;
+    }
+
+    public Users getUsers() {
+        return users;
+    }
+
+    public void setUsers(Users users) {
+        this.users = users;
+    }
 }

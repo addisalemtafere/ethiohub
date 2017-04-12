@@ -95,5 +95,27 @@ public class SeekerProfile {
         this.users = users;
     }
 
+    public List<EducationDetail> getEducationDetails() {
+        return educationDetails;
+    }
 
+    public void setEducationDetails(List<EducationDetail> educationDetails) {
+        this.educationDetails = educationDetails;
+    }
+
+    public List<ExperienceDetail> getExperienceDetails() {
+        return experienceDetails;
+    }
+
+    public void setExperienceDetails(List<ExperienceDetail> experienceDetails) {
+        this.experienceDetails = experienceDetails;
+    }
+
+    public List<SeekerSkillSet> getSeekerSkillSets() {
+        return seekerSkillSets;
+    }
+
+    public void setSeekerSkillSets(List<SeekerSkillSet> seekerSkillSets) {
+        this.seekerSkillSets = seekerSkillSets;
+    }
 }

@@ -20,4 +20,27 @@ public class JobType {
     @OneToMany(mappedBy = "jobType",cascade = CascadeType.ALL,fetch = FetchType.LAZY)
     private List<Jobs> jobs;
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getJobType() {
+        return jobType;
+    }
+
+    public void setJobType(String jobType) {
+        this.jobType = jobType;
+    }
+
+    public List<Jobs> getJobs() {
+        return jobs;
+    }
+
+    public void setJobs(List<Jobs> jobs) {
+        this.jobs = jobs;
+    }
 }

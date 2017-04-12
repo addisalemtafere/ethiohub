@@ -22,5 +22,35 @@ public class JobSkillSet {
     @JoinColumn(name = "job_id")
     private Jobs jobs;
 
+    public int getId() {
+        return id;
+    }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getSkillSetName() {
+        return skillSetName;
+    }
+
+    public void setSkillSetName(String skillSetName) {
+        this.skillSetName = skillSetName;
+    }
+
+    public int getLevel() {
+        return level;
+    }
+
+    public void setLevel(int level) {
+        this.level = level;
+    }
+
+    public Jobs getJobs() {
+        return jobs;
+    }
+
+    public void setJobs(Jobs jobs) {
+        this.jobs = jobs;
+    }
 }

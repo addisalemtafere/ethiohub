@@ -46,4 +46,6 @@ public class CompanyImage {
     public void setCompany(Company company) {
         this.company = company;
     }
+
+
 }

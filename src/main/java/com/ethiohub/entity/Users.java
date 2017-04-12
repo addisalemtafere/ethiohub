@@ -144,4 +144,20 @@ public class Users {
     public void setSeekerProfiles(List<SeekerProfile> seekerProfiles) {
         this.seekerProfiles = seekerProfiles;
     }
+
+    public List<JobActivity> getJobActivities() {
+        return jobActivities;
+    }
+
+    public void setJobActivities(List<JobActivity> jobActivities) {
+        this.jobActivities = jobActivities;
+    }
+
+    public List<Jobs> getJobs() {
+        return jobs;
+    }
+
+    public void setJobs(List<Jobs> jobs) {
+        this.jobs = jobs;
+    }
 }
